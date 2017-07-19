@@ -130,6 +130,7 @@ namespace Comp123_S2017_Lab24
             }
             return new Power("Power not found", 0);
         }
+
     }
 }
 

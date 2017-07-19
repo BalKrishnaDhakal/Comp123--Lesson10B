@@ -8,6 +8,7 @@ using System.Threading.Tasks;
  * Description: Lab 24
  * Version: 0.3 - Added a power to the SuperHuman Object 
  *              - Also displayed all the powers in the powers List
+ *              Added to week 10 projects
  *  Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
 namespace Comp123_S2017_Lab24
