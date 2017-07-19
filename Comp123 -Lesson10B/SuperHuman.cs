@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 /* Name: Bal Krishna Dhakal
  * Date: July 13, 2017
  * Description: This is the Super Human Class that extends the Human abstract class 
- * Version: 0.4 - Added DisplayPowers method
- * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
- */
+ * Version: 0.5 - Added GetPower method to the SuperHuman class
 
 namespace Comp123_S2017_Lab24
 {/// <summary>
@@ -60,7 +58,7 @@ namespace Comp123_S2017_Lab24
                 index++;
                 if (this.Powers.Count == index)
                 {
-                    index = -1;// This means that we didn not find in the list
+                    index = -1;// This means that we didn not find the power in the list
                 }
             }
             return index;
@@ -124,9 +122,10 @@ namespace Comp123_S2017_Lab24
         /// <returns></returns>
         public Power GetPower(string name)
         {
-            if (this._getPowerIndex(name) != -1)
+            int index = this._getPowerIndex(name);
+            if (index != -1)
             {
-                return this.Powers[this._getPowerIndex(name)];
+                return this.Powers[index];
             }
             return new Power("Power not found", 0);
         }
