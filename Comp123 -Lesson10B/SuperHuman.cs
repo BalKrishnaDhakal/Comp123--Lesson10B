@@ -7,6 +7,7 @@ using System.Threading.Tasks;
  * Date: July 13, 2017
  * Description: This is the Super Human Class that extends the Human abstract class 
  * Version: 0.5 - Added GetPower method to the SuperHuman class
+ */
 
 namespace Comp123_S2017_Lab24
 {/// <summary>

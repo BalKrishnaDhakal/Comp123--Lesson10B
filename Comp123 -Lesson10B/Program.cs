@@ -63,7 +63,9 @@ namespace Comp123_S2017_Lab24
             }
 
 
-
+            AntiHero batman = new AntiHero("Batman", 20, 20);
+            batman.AddPower("Super Intelligence", 50);
+            Console.WriteLine(batman.ToString());
 
 
 
